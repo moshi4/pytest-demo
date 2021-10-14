@@ -6,7 +6,7 @@
   // pytest実行時の引数設定を追加
   // --cov: カバレッジ計測の有効化
   // --cov-report xml: カバレッジ計測レポートをxml形式(coverage.xml)で出力
-  "python.testing.pytestArgs": ["--cov", "--cov-report", "xml"],
+  "python.testing.pytestArgs": ["--cov=src", "--cov-report", "xml"],
 
   // エディタ上のカバレッジ表示設定
   // ガター(ブレークポイント等が表示される場所)でのカバレッジ表示有無(default: true)
